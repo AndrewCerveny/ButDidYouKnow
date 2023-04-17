@@ -7,7 +7,7 @@ export default function Fact() {
 		<section>
 			<h1>Fact</h1>
 			{console.log(data[0].image)}
-			<img src={Blanche91936AM} alt='data0'/>
+			<img src={data[0].image} alt='data0'/>
 		</section>
 	)
 }
