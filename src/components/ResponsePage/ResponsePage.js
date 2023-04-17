@@ -3,7 +3,7 @@
  const ResponsePage = () => {
   
   return(
-    <section>
+    <section className="response-page-area">
       <section className="response-area">
         <h2> NO Response for ... </h2>
         <h2> Users input placed here </h2>
@@ -22,4 +22,4 @@
     </section>
   )
  }
- export default ResponsePage;
+ export default ResponsePage
