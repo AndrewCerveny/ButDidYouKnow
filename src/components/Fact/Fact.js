@@ -6,7 +6,7 @@ export default function Fact() {
 	const randomObjectIndex = Math.floor(Math.random() * 27)
 	const randomFactIndex = Math.floor(Math.random() * 2)
 	const randomImage = data[randomObjectIndex]
-	const randomFact = randomImage[randomFactIndex]
+	const randomFact = randomImage.facts[randomFactIndex]
 
 	return (
 		<section>
@@ -17,7 +17,7 @@ export default function Fact() {
 				<div className='date-time-fact'>
 					<h2 className='fact-date'>On {randomImage.date}</h2>
 					<h2 className='fact-time'>at {randomImage.time}</h2>
-					<h2 className='fact-fact'>{randomImage.randomFact}</h2>
+					<h2 className='fact-fact'>{randomFact}</h2>
 				</div>
 			</div>
 		</section>
