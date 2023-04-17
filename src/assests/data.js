@@ -45,8 +45,9 @@ const data = [
 	{image: Adam, 
 		facts: [
 			`"I was here in spirit!" as Adam steps away from his desk to get another cup of coffee, watered down with more coffee.`,
+			`Andy is taking intel for hackathon, but also, "Who the flipcakes is ANDY?!"`,
 			`Adam's name starts with an 'A', and 'A' is the start of the alphabet.`
-			`Andy is taking intel for hackathon, but also, "Who the flipcakes is ANDY?!"`], 
+		], 
 		date: '2023-04-17', 
 		time: '9:29 am'},
 	{image: Derek, 
