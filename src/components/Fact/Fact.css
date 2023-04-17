@@ -1,0 +1,21 @@
+.fact-container {
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid black;
+}
+
+.fact-image {
+	width: 40vw;
+}
+
+.date-time-fact {
+	width: 50vw;
+	border: 2px solid black;
+}
+
+.fact-date,
+.fact-time,
+.fact-fact {
+	padding: 3px;
+}
