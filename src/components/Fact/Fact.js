@@ -11,6 +11,7 @@ export default function Fact() {
 			{console.log(data[0].image)}
 			<h2>{data[randomImageIndex].date}</h2>
 			<h2>{data[randomImageIndex].time}</h2>
+			<h2>{data[randomImageIndex].fact}</h2>
 			<img classname='fact-image' src={data[randomImageIndex].image} alt={randomImageIndex}/>
 		</section>
 	)
