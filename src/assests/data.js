@@ -65,11 +65,6 @@ const data = [
 	{image: Patt, fact: ' Finland has more saunas than cars', date: '2023-04-17', time: '9:23 am'},
 	{image: Zac, fact: `The Supreme Court has its own private basketball court called "the highest court in the land." Pretty clever, if you ask us. It also features a full gym. `, date: '2023-04-17', time: '9:29 am'},
 
-	
-
-
-	
-
 ]
 
 export default data
