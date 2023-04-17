@@ -177,11 +177,6 @@ const data = [
 		date: '2023-04-17', 
 		time: '9:29 am'},
 
-	
-
-
-	
-
 ]
 
 export default data

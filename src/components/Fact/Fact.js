@@ -3,16 +3,23 @@ import data from '../../assests/data'
 
 export default function Fact() {
 
-	const randomImageIndex = Math.floor(Math.random() * 27)
+	const randomObjectIndex = Math.floor(Math.random() * 27)
+	const randomFactIndex = Math.floor(Math.random() * 2)
+	const randomImage = data[randomObjectIndex]
+	const randomFact = randomImage[randomFactIndex]
 
-	return(
+	return (
 		<section>
-			<h1>Fact</h1>
+			<h2>But did you know...</h2>
 			{console.log(data[0].image)}
-			<h2>{data[randomImageIndex].date}</h2>
-			<h2>{data[randomImageIndex].time}</h2>
-			<h2>{data[randomImageIndex].fact}</h2>
-			<img classname='fact-image' src={data[randomImageIndex].image} alt={randomImageIndex}/>
+			<div className='fact-container'>
+				<img className='fact-image' src={randomImage.image} alt={randomImage} />
+				<div className='date-time-fact'>
+					<h2 className='fact-date'>On {randomImage.date}</h2>
+					<h2 className='fact-time'>at {randomImage.time}</h2>
+					<h2 className='fact-fact'>{randomFact}</h2>
+				</div>
+			</div>
 		</section>
 	)
 }
